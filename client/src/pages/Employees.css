@@ -1,0 +1,27 @@
+.employees-page {
+  padding: 0;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.status-badge-active {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-badge-inactive {
+  background-color: #ffebee;
+  color: #c62828;
+}
+
+.action-btn-group {
+  display: flex;
+  gap: 8px;
+}
+

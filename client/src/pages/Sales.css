@@ -1,0 +1,62 @@
+.sales-page {
+  padding: 0;
+}
+
+.sales-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.table-container {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  overflow-x: auto;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.data-table th {
+  background-color: #fafafa;
+  color: #616161;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 14px 16px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.data-table td {
+  padding: 14px 16px;
+  font-size: 0.9rem;
+  color: #212121;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table tr:hover td {
+  background-color: #fcfcfc;
+}
+
+.amount-col {
+  font-weight: 600;
+  color: #1a237e;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 48px 16px;
+  color: #757575;
+}
+

@@ -1,0 +1,17 @@
+{
+  "name": "grovix-business-management",
+  "version": "1.0.0",
+  "description": "Unified Grovix Business Management System - Web Platform & Native Android Mobile App",
+  "main": "server/index.js",
+  "scripts": {
+    "postinstall": "npm install --prefix server",
+    "build": "node scripts/build-or-copy.js",
+    "build:client": "npm install --prefix client && npm run build --prefix client && node scripts/copy-build.js",
+    "start": "node server/index.js",
+    "dev:server": "node server/index.js",
+    "dev:client": "npm start --prefix client"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
