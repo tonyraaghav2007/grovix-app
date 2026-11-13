@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "npm run build --prefix client",
+  "installCommand": "npm install --prefix client",
+  "buildCommand": "CI=false npm run build --prefix client",
   "outputDirectory": "client/build",
   "framework": "create-react-app",
   "rewrites": [
@@ -18,4 +19,3 @@
     }
   ]
 }
-
