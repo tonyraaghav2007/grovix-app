@@ -21,3 +21,4 @@ if (fs.existsSync(publicIndex)) {
     process.exit(1);
   }
 }
+

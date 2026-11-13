@@ -18,9 +18,9 @@ object GrovixApiClient {
     private const val KEY_SERVER_URL = "cloud_server_url"
     private const val KEY_AUTH_TOKEN = "cloud_auth_token"
 
-    // Default server address: local dev / tunnel default
-    // Colleagues can connect to public tunnel URL or custom cloud URL
-    var defaultBaseUrl = "https://grovix-app.loca.lt"
+    // Default server address: Render 24/7 Cloud Backend
+    // Colleagues automatically connect to this live cloud server out of the box
+    var defaultBaseUrl = "https://grovix-app.onrender.com"
 
     private var prefs: SharedPreferences? = null
 
